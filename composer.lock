@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "e90fd173af749b6c59b4ea6446ac97ef",
+    "packages": [
+        {
+            "name": "eggmatters/pmf",
+            "version": "dev-composer_setup",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eggmatters/pmf.git",
+                "reference": "e529b91363526cc4d0596f6e0deb2f27a992465c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eggmatters/pmf/zipball/e529b91363526cc4d0596f6e0deb2f27a992465c",
+                "reference": "e529b91363526cc4d0596f6e0deb2f27a992465c",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "core\\": "src/core/",
+                    "utilities\\": "src/utilities/"
+                }
+            },
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": {
+                "name": "Matthew Eggerss",
+                "email": "eggmatters@gmail.com",
+                "homepage": "http://www.eggmatters.com"
+            },
+            "description": "Composer package for PMF framework library",
+            "keywords": [
+                "framework",
+                "php",
+                "pmf"
+            ],
+            "support": {
+                "source": "https://github.com/eggmatters/pmf/tree/composer_setup",
+                "issues": "https://github.com/eggmatters/pmf/issues"
+            },
+            "time": "2017-09-27T05:28:38+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "eggmatters/pmf": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
